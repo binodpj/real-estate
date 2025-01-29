@@ -2,9 +2,12 @@ import React from "react";
 
 const OurStory = () => {
   return (
-    <div className="flex flex-col items-center px-2 py-10 lg:flex-row-reverse lg:gap-10 lg:px-24" id="about-us">
+    <div
+      className="flex flex-col items-center px-2 py-10 lg:flex-row-reverse lg:gap-10 lg:px-24"
+      id="about-us"
+    >
       <div className="flex justify-center px-4 border-white shadow-xl">
-        <img src="story-house.png" alt="" className="max-h-80 min-w-96" />
+        <img src="story-house.png" alt="" className="max-h-80 min-w-[300px]" />
       </div>
 
       <div className="flex flex-col gap-4 px-4 py-8">
